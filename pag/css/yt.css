@@ -1,0 +1,94 @@
+*{
+     margin: 0;
+     padding: 0;
+     border: 10;
+     font-size: 100%;
+     vertical-align: baseline;
+}
+body {
+     text-align: center;
+     font-family: sans-serif;
+ }
+ body{
+     background-image: linear-gradient(
+          0deg,
+          rgba(0,0,0,0.5),
+          rgba(0,0,0,0.5)
+          )
+      ,url("../img/jt.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:center center;
+ font-family: 'Times New Roman', Times, serif;;
+ color: rgb(13, 11, 19);
+
+ }
+ h1{
+     color: rgb(207, 205, 205);
+     font-size: 50px;
+     text-transform: uppercase;
+}
+h1{
+     color: rgb(240, 240, 240);
+     font-size: 50px;
+     text-align: center ;
+     border: 10px 15px;
+     animation: rainbow 2.5s ease-in-out infinite;
+ }
+ 
+ @keyframes rainbow {
+     0% {
+         text-shadow: 0 0 25px #a5b401;
+     }
+     20% {
+         text-shadow: 0 0 25px #ff0101; 
+     }
+     50% {
+         text-shadow: 0 0 25px #02ff5b; 
+     }
+     60% {
+         text-shadow: 0 0 25px #1100ff;
+     }
+     80% {
+         text-shadow: 0 0 25px #0000FF; 
+     }
+     100% {
+         text-shadow: 0 0  25px #ae00ff;
+     }
+}
+
+ .grupo {
+     color: #fff;
+     display:block;
+  border-radius: 10px;
+  font-size:30px;
+  padding: 25px;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #6bfa6b;
+
+ }
+
+.grupo button{
+     border-radius:35px;
+     flex-direction: row;
+     margin: 20px;
+     font-size: 20px;
+     font-weight: bolder;
+     color: #fff;
+     border: solid #7e6f23;
+     width:150px;
+     height:50px;
+     margin-left: auto;
+     margin-right: auto;
+     background-image: linear-gradient(to right top, #6e3f1e 0%, #574120 100%);
+     
+ }
+
+.grupo textarea {
+     
+     text-align: center;
+     border-radius: 20px;
+     font-size:30px;
+}
+
+
